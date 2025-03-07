@@ -1,0 +1,21 @@
+You have received a letter ✉️ with all the gifts you must prepare. The thing is that it is a text string and it is very difficult to read 😱. Thank goodness they have put each gift separately by space! (although be careful, because being children, they may have snuck in more spaces than necessary)
+
+We have also noticed that some words come with a _ in front of the word, for example _playstation, which means that it is crossed out and does not have to be counted.
+
+Transform the text into an object that contains the name of each gift and the times it appears. For example, if we have the text:
+
+const letter = 'bike car ball _playstation bike car plush'
+When executing the method it should return the following:
+
+const gifts = listGifts(letter)
+
+console.log(gifts)
+/*
+{
+  bike: 2,
+  car: 2,
+  ball: 1,
+  plush: 1
+}
+*/
+Keep in mind that the tests can be more exhaustive... 😝 Be careful with counting empty spaces!
