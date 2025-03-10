@@ -1,0 +1,19 @@
+The Grinch is opening the letters that were meant for Santa Claus and he's leaving them in a mess. 😱
+
+Letters are a string of text that includes gifts and parentheses ().
+
+To know if a card is valid ✅, you must check that the parentheses close correctly and that they are not empty.
+
+But be careful! Because the Grinch has left curly brackets {and brackets [inside the parentheses, which makes them invalid . Luckily, he only left them in the middle of the parentheses...
+
+Examples:
+
+"bici coche (balón) bici coche peluche" // -> ✅
+"(muñeca) consola bici" // ✅
+
+"bici coche (balón bici coche" // -> ❌
+"peluche (bici [coche) bici coche balón" // -> ❌
+"(peluche {) bici" // -> ❌
+"() bici" // ❌
+      
+Create a function that, by passing the text of the letter, returns truewhether it is valid and falseif not. And put an end to the Grinch's prank!
